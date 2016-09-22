@@ -19,8 +19,9 @@ public class Figures {
         return area;
     }
 
-    public void squareArea(int sideSize){
+    public int squareArea(int sideSize){
         this.area = sideSize * 4;
+        return area;
     }
 
 
